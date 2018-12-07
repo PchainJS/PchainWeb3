@@ -6,3 +6,4 @@ if (typeof window !== 'undefined' && typeof window.Web3 === 'undefined') {
 }
 
 module.exports = Web3;
+              
