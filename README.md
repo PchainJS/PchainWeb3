@@ -18,7 +18,7 @@ You need to run a local Pchain node to use this library.
   - [Yarn](#yarn)
   - [As a Browser module](#as-a-browser-module)
 - [Usage](#usage)
-  - [Version 1.0.1](#migration-from-0130-to-0140)
+  - [Latest Version](#usage)
 - [Contribute!](#contribute)
   - [Requirements](#requirements)
   - [Building (gulp)](#building-gulp)
@@ -58,6 +58,8 @@ bower install pweb3
 Use the `web3` object directly from the global namespace:
 
 ```js
+var Web3 = require("pweb3");
+var web3 = new Web3();
 console.log(web3); // {eth: .., shh: ...} // It's here!
 ```
 
@@ -87,15 +89,6 @@ var balance = web3.eth.getBalance(coinbase);
 
 You can find more examples in the [`example`](https://github.com/ethereum/web3.js/tree/master/example) directory.
 
-### Migration to PWeb3 1.0.1
-
-PWeb3 new version supports [multiple instances of the web3](https://github.com/ethereum/web3.js/issues/297) object.
-To migrate to this version, please follow the guide:
-
-```diff
--var web3 = require('pweb3');
-+var Web3 = require('pweb3');
-+var web3 = new Web3();
 ```
 ## Contribute!
 
