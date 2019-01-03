@@ -10,11 +10,6 @@
         "id":2,
         "chainId":"child_1",
         "chainName":"Chain child 2"
-      },
-     {
-        "id":3,
-        "chainId":"child_2",
-        "chainName":"Chain child 3"
       }
     ]
 }
